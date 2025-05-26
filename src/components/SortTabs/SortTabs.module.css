@@ -1,0 +1,27 @@
+.tabs {
+    display: block;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #dfe5ec;
+    cursor: pointer;
+    color: #4a4a4a;
+    flex-wrap: nowrap;
+    border-radius: 0;
+}
+
+.tab:not(:last-child){
+    border-right: 0;
+}
+
+.active {
+    background: #2196F3;
+    color: #fff;
+}
